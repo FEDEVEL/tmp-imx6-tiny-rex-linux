@@ -1,0 +1,54 @@
+/*
+ * Copyright (C) 2015 Voipac.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ */
+
+/dts-v1/;
+
+#include "imx6dl.dtsi"
+#include "imx6qdl-tinyrex.dtsi"
+
+/ {
+	model = "Fedevel i.MX6 Solo TinyREX Board";
+	compatible = "fsl,imx6dl-tinyrex", "fsl,imx6dl";
+
+	memory {
+		reg = <0x10000000 0x40000000>;
+	};
+};
+
+&i2c3 {
+        clock-frequency = <100000>;
+        pinctrl-names = "default";
+        status = "okay";
+
+        adv7610: adv7610@4C {
+                compatible = "adv,adv7610";
+                reg = <0x4C>;
+                pinctrl-names = "default";
+                pinctrl-0 = <&pinctrl_ipu1_csi0>;
+                csi_id = <0>;
+                ipu_id = <0>;
+        reset-gpio = <&gpio1 07 0>;
+        };
+
+};
+
+&mxcfb1 {
+	status = "okay";
+};
+
+&mxcfb2 {
+	status = "disabled";
+};
+
+&pxp {
+	status = "okay";
+};
+
+&usdhc3 {
+	status = "okay";
+};

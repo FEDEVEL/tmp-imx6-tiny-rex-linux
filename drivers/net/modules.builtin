@@ -1,0 +1,10 @@
+kernel/drivers/net/mii.ko
+kernel/drivers/net/can/can-dev.ko
+kernel/drivers/net/can/m_can.ko
+kernel/drivers/net/can/flexcan.ko
+kernel/drivers/net/ethernet/cirrus/cs89x0.ko
+kernel/drivers/net/ethernet/freescale/fec.ko
+kernel/drivers/net/ethernet/smsc/smc91x.ko
+kernel/drivers/net/ethernet/smsc/smc911x.ko
+kernel/drivers/net/ethernet/smsc/smsc911x.ko
+kernel/drivers/net/phy/libphy.ko

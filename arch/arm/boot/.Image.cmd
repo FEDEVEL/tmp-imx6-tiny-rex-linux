@@ -1,0 +1,1 @@
+cmd_arch/arm/boot/Image := /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-objcopy -O binary -R .comment -S  vmlinux arch/arm/boot/Image

@@ -1,0 +1,8 @@
+kernel/drivers/regulator/fixed.ko
+kernel/drivers/regulator/anatop-regulator.ko
+kernel/drivers/regulator/da9052-regulator.ko
+kernel/drivers/regulator/max17135-regulator.ko
+kernel/drivers/regulator/mc13783-regulator.ko
+kernel/drivers/regulator/mc13892-regulator.ko
+kernel/drivers/regulator/mc13xxx-regulator-core.ko
+kernel/drivers/regulator/pfuze100-regulator.ko

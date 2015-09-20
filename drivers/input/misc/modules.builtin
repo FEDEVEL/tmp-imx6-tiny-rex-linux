@@ -1,0 +1,2 @@
+kernel/drivers/input/misc/mma8450.ko
+kernel/drivers/input/misc/isl29023.ko

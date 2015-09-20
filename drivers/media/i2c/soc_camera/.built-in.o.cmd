@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/soc_camera/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/media/i2c/soc_camera/built-in.o drivers/media/i2c/soc_camera/ov2640.o 

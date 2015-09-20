@@ -1,0 +1,3 @@
+imx27-phytec-phycard-s-som.o: \
+ arch/arm/boot/dts/imx27-phytec-phycard-s-som.dts \
+ arch/arm/boot/dts/imx27.dtsi arch/arm/boot/dts/skeleton.dtsi

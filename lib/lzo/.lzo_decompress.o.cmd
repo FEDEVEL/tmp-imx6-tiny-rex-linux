@@ -1,0 +1,1 @@
+cmd_lib/lzo/lzo_decompress.o := /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o lib/lzo/lzo_decompress.o lib/lzo/lzo1x_decompress_safe.o 

@@ -1,0 +1,1 @@
+cmd_lib/fonts/font.o := /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o lib/fonts/font.o lib/fonts/fonts.o lib/fonts/font_8x8.o lib/fonts/font_8x16.o 

@@ -1,0 +1,11 @@
+kernel/drivers/video/mxc/ldb.ko
+kernel/drivers/video/mxc/mipi_dsi.ko
+kernel/drivers/video/mxc/mxcfb_hx8369_wvga.ko
+kernel/drivers/video/mxc/mxc_hdmi.ko
+kernel/drivers/video/mxc/mxc_edid.ko
+kernel/drivers/video/mxc/mxc_dispdrv.ko
+kernel/drivers/video/mxc/mxc_lcdif.ko
+kernel/drivers/video/mxc/mxc_ipuv3_fb.ko
+kernel/drivers/video/mxc/mxc_epdc_fb.ko
+kernel/drivers/video/mxc/mxsfb_sii902x.ko
+kernel/drivers/video/mxc/hannstar_cabc.ko

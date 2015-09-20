@@ -1,0 +1,9 @@
+kernel/sound/soc/codecs/snd-soc-cs42xx8.ko
+kernel/sound/soc/codecs/snd-soc-cs42xx8-i2c.ko
+kernel/sound/soc/codecs/snd-soc-fsl-mqs.ko
+kernel/sound/soc/codecs/snd-soc-mc13783.ko
+kernel/sound/soc/codecs/snd-soc-hdmi-codec.ko
+kernel/sound/soc/codecs/snd-soc-sgtl5000.ko
+kernel/sound/soc/codecs/snd-soc-si476x.ko
+kernel/sound/soc/codecs/snd-soc-tlv320aic23.ko
+kernel/sound/soc/codecs/snd-soc-wm8962.ko

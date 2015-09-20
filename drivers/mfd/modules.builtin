@@ -1,0 +1,7 @@
+kernel/drivers/mfd/mc13xxx-core.ko
+kernel/drivers/mfd/mc13xxx-spi.ko
+kernel/drivers/mfd/mc13xxx-i2c.ko
+kernel/drivers/mfd/mfd-core.ko
+kernel/drivers/mfd/max17135-core.ko
+kernel/drivers/mfd/si476x-core.ko
+kernel/drivers/mfd/mxc-hdmi-core.ko

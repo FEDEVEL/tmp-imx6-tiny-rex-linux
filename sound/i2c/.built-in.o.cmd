@@ -1,0 +1,1 @@
+cmd_sound/i2c/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o sound/i2c/built-in.o sound/i2c/other/built-in.o 

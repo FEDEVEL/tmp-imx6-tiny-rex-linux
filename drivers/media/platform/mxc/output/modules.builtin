@@ -1,0 +1,2 @@
+kernel/drivers/media/platform/mxc/output/mxc_vout.ko
+kernel/drivers/media/platform/mxc/output/mxc_pxp_v4l2.ko

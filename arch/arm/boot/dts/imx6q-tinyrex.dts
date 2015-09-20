@@ -1,0 +1,97 @@
+/*
+ * Copyright (C) 2015 Voipac.
+ *
+ * The code contained herein is licensed under the GNU General Public
+ * License. You may obtain a copy of the GNU General Public License
+ * Version 2 or later at the following locations:
+ *
+ * http://www.opensource.org/licenses/gpl-license.html
+ * http://www.gnu.org/copyleft/gpl.html
+ */
+
+/dts-v1/;
+
+#include "imx6q.dtsi"
+#include "imx6qdl-tinyrex.dtsi"
+
+/ {
+	model = "Fedevel i.MX6 Quad TinyREX Board";
+	compatible = "fsl,imx6q-tinyrex", "fsl,imx6q";
+
+	memory {
+		reg = <0x10000000 0x80000000>;
+	};
+};
+
+&iomuxc {
+        ipu1 {
+                pinctrl_ipu1_5: ipu1grp-5 { /* bt.1120 16-bit */
+                        fsl,pins = <
+                                MX6QDL_PAD_EIM_D27__IPU1_CSI0_DATA00     0x000030B0 /*pulldown*/
+                                MX6QDL_PAD_EIM_D26__IPU1_CSI0_DATA01     0x000030B0 /*pulldown*/
+                                MX6QDL_PAD_EIM_D31__IPU1_CSI0_DATA02     0x80000000
+                                MX6QDL_PAD_EIM_D30__IPU1_CSI0_DATA03     0x80000000
+                                MX6QDL_PAD_CSI0_DAT4__IPU1_CSI0_DATA04   0x80000000
+                                MX6QDL_PAD_CSI0_DAT5__IPU1_CSI0_DATA05   0x80000000
+                                MX6QDL_PAD_CSI0_DAT6__IPU1_CSI0_DATA06   0x80000000
+                                MX6QDL_PAD_CSI0_DAT7__IPU1_CSI0_DATA07   0x80000000
+                                MX6QDL_PAD_CSI0_DAT8__IPU1_CSI0_DATA08   0x80000000
+                                MX6QDL_PAD_CSI0_DAT9__IPU1_CSI0_DATA09   0x80000000
+                                MX6QDL_PAD_CSI0_DAT10__IPU1_CSI0_DATA10  0x000030B0 /*pulldown*/
+                                MX6QDL_PAD_CSI0_DAT11__IPU1_CSI0_DATA11  0x000030B0 /*pulldown*/
+                                MX6QDL_PAD_CSI0_DAT12__IPU1_CSI0_DATA12  0x80000000
+                                MX6QDL_PAD_CSI0_DAT13__IPU1_CSI0_DATA13  0x80000000
+                                MX6QDL_PAD_CSI0_DAT14__IPU1_CSI0_DATA14  0x80000000
+                                MX6QDL_PAD_CSI0_DAT15__IPU1_CSI0_DATA15  0x80000000
+                                MX6QDL_PAD_CSI0_DAT16__IPU1_CSI0_DATA16  0x80000000
+                                MX6QDL_PAD_CSI0_DAT17__IPU1_CSI0_DATA17  0x80000000
+                                MX6QDL_PAD_CSI0_DAT18__IPU1_CSI0_DATA18  0x80000000
+                                MX6QDL_PAD_CSI0_DAT19__IPU1_CSI0_DATA19  0x80000000
+                                MX6QDL_PAD_CSI0_PIXCLK__IPU1_CSI0_PIXCLK 0x80000000
+                        >;
+                };
+        };
+};
+               
+
+&i2c3 {
+        clock-frequency = <100000>;
+        pinctrl-names = "default";
+        status = "okay";
+
+        adv7610: adv7610@4C {
+                compatible = "adv,adv7610";
+                reg = <0x4C>;
+                pinctrl-names = "default";
+                pinctrl-0 = <&pinctrl_ipu1_5>;
+                csi_id = <0>;
+                ipu_id = <0>;
+	        reset-gpio = <&gpio1 7 0>;
+        };
+
+};
+
+
+&mxcfb1 {
+	status = "okay";
+};
+
+&mxcfb2 {
+	status = "disabled";
+};
+
+&mxcfb3 {
+	status = "disabled";
+};
+
+&mxcfb4 {
+	status = "disabled";
+};
+
+&sata {
+	status = "okay";
+};
+
+&usdhc3 {
+	status = "okay";
+};

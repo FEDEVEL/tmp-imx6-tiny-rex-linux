@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/built-in.o :=  rm -f drivers/usb/serial/built-in.o; /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ar rcsD drivers/usb/serial/built-in.o

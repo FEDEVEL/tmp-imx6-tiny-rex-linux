@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_main.o := /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/media/usb/gspca/gspca_main.o drivers/media/usb/gspca/gspca.o drivers/media/usb/gspca/autogain_functions.o 

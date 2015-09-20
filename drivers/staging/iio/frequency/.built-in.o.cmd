@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/frequency/built-in.o :=  rm -f drivers/staging/iio/frequency/built-in.o; /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ar rcsD drivers/staging/iio/frequency/built-in.o

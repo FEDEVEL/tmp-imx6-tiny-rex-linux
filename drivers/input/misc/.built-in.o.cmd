@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/input/misc/built-in.o drivers/input/misc/mma8450.o drivers/input/misc/isl29023.o 

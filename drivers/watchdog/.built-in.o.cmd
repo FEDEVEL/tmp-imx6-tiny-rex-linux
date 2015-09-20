@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/watchdog/built-in.o drivers/watchdog/imx2_wdt.o 

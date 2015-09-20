@@ -1,0 +1,9 @@
+imx6q-cubox-i.o: arch/arm/boot/dts/imx6q-cubox-i.dts \
+ arch/arm/boot/dts/imx6q.dtsi \
+ /home/fedevel/tiny/linux/linux-fslc/arch/arm/boot/dts/include/dt-bindings/interrupt-controller/irq.h \
+ arch/arm/boot/dts/imx6q-pinfunc.h arch/arm/boot/dts/imx6qdl.dtsi \
+ /home/fedevel/tiny/linux/linux-fslc/arch/arm/boot/dts/include/dt-bindings/clock/imx6qdl-clock.h \
+ /home/fedevel/tiny/linux/linux-fslc/arch/arm/boot/dts/include/dt-bindings/gpio/gpio.h \
+ arch/arm/boot/dts/skeleton.dtsi arch/arm/boot/dts/imx6qdl-cubox-i.dtsi \
+ arch/arm/boot/dts/imx6qdl-microsom.dtsi \
+ arch/arm/boot/dts/imx6qdl-microsom-ar8035.dtsi

@@ -1,0 +1,1 @@
+cmd_drivers/mtd/spi-nor/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/mtd/spi-nor/built-in.o drivers/mtd/spi-nor/spi-nor.o drivers/mtd/spi-nor/fsl-quadspi.o 

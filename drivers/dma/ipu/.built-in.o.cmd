@@ -1,0 +1,1 @@
+cmd_drivers/dma/ipu/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/dma/ipu/built-in.o drivers/dma/ipu/ipu_irq.o drivers/dma/ipu/ipu_idmac.o 

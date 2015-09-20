@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/freescale/fec.o := /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/net/ethernet/freescale/fec.o drivers/net/ethernet/freescale/fec_main.o drivers/net/ethernet/freescale/fec_ptp.o 

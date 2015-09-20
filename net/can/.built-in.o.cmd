@@ -1,0 +1,1 @@
+cmd_net/can/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o net/can/built-in.o net/can/can.o net/can/can-raw.o net/can/can-bcm.o net/can/can-gw.o 

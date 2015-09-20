@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/media/radio/built-in.o drivers/media/radio/radio-si476x.o 

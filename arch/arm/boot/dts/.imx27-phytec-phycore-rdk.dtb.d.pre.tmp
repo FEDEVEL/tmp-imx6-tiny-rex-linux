@@ -1,0 +1,4 @@
+imx27-phytec-phycore-rdk.o: \
+ arch/arm/boot/dts/imx27-phytec-phycore-rdk.dts \
+ arch/arm/boot/dts/imx27-phytec-phycore-som.dts \
+ arch/arm/boot/dts/imx27.dtsi arch/arm/boot/dts/skeleton.dtsi

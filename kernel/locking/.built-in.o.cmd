@@ -1,0 +1,1 @@
+cmd_kernel/locking/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o kernel/locking/built-in.o kernel/locking/mutex.o kernel/locking/semaphore.o kernel/locking/rwsem.o kernel/locking/lglock.o kernel/locking/spinlock.o kernel/locking/rtmutex.o kernel/locking/rwsem-spinlock.o 

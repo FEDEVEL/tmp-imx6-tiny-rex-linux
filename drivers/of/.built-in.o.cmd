@@ -1,0 +1,1 @@
+cmd_drivers/of/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/of/built-in.o drivers/of/base.o drivers/of/device.o drivers/of/platform.o drivers/of/fdt.o drivers/of/address.o drivers/of/irq.o drivers/of/of_net.o drivers/of/of_mdio.o drivers/of/of_mtd.o 

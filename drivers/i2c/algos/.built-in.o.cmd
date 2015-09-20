@@ -1,0 +1,1 @@
+cmd_drivers/i2c/algos/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/i2c/algos/built-in.o drivers/i2c/algos/i2c-algo-bit.o 

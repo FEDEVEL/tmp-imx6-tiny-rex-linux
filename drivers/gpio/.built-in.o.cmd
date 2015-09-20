@@ -1,0 +1,1 @@
+cmd_drivers/gpio/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/gpio/built-in.o drivers/gpio/devres.o drivers/gpio/gpiolib.o drivers/gpio/gpiolib-of.o drivers/gpio/gpio-generic.o drivers/gpio/gpio-mxc.o drivers/gpio/gpio-pca953x.o 

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/smsc/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/net/ethernet/smsc/built-in.o drivers/net/ethernet/smsc/smc91x.o drivers/net/ethernet/smsc/smc911x.o drivers/net/ethernet/smsc/smsc911x.o 

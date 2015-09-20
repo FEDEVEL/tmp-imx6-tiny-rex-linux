@@ -1,0 +1,8 @@
+imx6sx-19x19-arm2-gpmi-weim.o: \
+ arch/arm/boot/dts/imx6sx-19x19-arm2-gpmi-weim.dts \
+ arch/arm/boot/dts/imx6sx-19x19-arm2.dts arch/arm/boot/dts/imx6sx.dtsi \
+ /home/fedevel/tiny/linux/linux-fslc/arch/arm/boot/dts/include/dt-bindings/clock/imx6sx-clock.h \
+ /home/fedevel/tiny/linux/linux-fslc/arch/arm/boot/dts/include/dt-bindings/gpio/gpio.h \
+ /home/fedevel/tiny/linux/linux-fslc/arch/arm/boot/dts/include/dt-bindings/interrupt-controller/arm-gic.h \
+ /home/fedevel/tiny/linux/linux-fslc/arch/arm/boot/dts/include/dt-bindings/interrupt-controller/irq.h \
+ arch/arm/boot/dts/imx6sx-pinfunc.h arch/arm/boot/dts/skeleton.dtsi

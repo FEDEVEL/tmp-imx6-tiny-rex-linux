@@ -1,0 +1,6 @@
+kernel/drivers/video/backlight/lcd.ko
+kernel/drivers/video/backlight/l4f00242t03.ko
+kernel/drivers/video/backlight/platform_lcd.ko
+kernel/drivers/video/backlight/backlight.ko
+kernel/drivers/video/backlight/generic_bl.ko
+kernel/drivers/video/backlight/pwm_bl.ko

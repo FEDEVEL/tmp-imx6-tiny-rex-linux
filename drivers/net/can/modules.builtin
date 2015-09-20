@@ -1,0 +1,3 @@
+kernel/drivers/net/can/can-dev.ko
+kernel/drivers/net/can/m_can.ko
+kernel/drivers/net/can/flexcan.ko

@@ -1,0 +1,1 @@
+cmd_drivers/char/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/char/built-in.o drivers/char/mem.o drivers/char/random.o drivers/char/misc.o drivers/char/fsl_otp.o drivers/char/hw_random/built-in.o drivers/char/agp/built-in.o drivers/char/imx_amp/built-in.o 

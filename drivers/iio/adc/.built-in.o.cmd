@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/iio/adc/built-in.o drivers/iio/adc/vf610_adc.o 

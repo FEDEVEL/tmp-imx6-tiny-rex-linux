@@ -1,0 +1,3 @@
+kernel/drivers/mtd/devices/mtd_dataflash.ko
+kernel/drivers/mtd/devices/m25p80.ko
+kernel/drivers/mtd/devices/sst25l.ko

@@ -1,0 +1,1 @@
+cmd_drivers/ata/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/ata/built-in.o drivers/ata/libata.o drivers/ata/ahci_platform.o drivers/ata/libahci.o drivers/ata/libahci_platform.o drivers/ata/ahci_imx.o drivers/ata/pata_imx.o 

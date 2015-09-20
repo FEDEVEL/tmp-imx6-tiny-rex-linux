@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/cadence/built-in.o :=  rm -f drivers/net/ethernet/cadence/built-in.o; /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ar rcsD drivers/net/ethernet/cadence/built-in.o

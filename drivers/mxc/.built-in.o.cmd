@@ -1,0 +1,1 @@
+cmd_drivers/mxc/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/mxc/built-in.o drivers/mxc/gpu-viv/built-in.o drivers/mxc/ipu3/built-in.o drivers/mxc/vpu/built-in.o drivers/mxc/mipi/built-in.o drivers/mxc/mlb/built-in.o 

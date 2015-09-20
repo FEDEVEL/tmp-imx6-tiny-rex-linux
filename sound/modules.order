@@ -1,0 +1,4 @@
+kernel/sound/core/snd-hwdep.ko
+kernel/sound/core/snd-rawmidi.ko
+kernel/sound/usb/snd-usb-audio.ko
+kernel/sound/usb/snd-usbmidi-lib.ko

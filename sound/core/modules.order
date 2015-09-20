@@ -1,0 +1,2 @@
+kernel/sound/core/snd-hwdep.ko
+kernel/sound/core/snd-rawmidi.ko

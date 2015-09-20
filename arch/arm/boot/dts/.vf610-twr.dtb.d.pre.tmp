@@ -1,0 +1,3 @@
+vf610-twr.o: arch/arm/boot/dts/vf610-twr.dts arch/arm/boot/dts/vf610.dtsi \
+ arch/arm/boot/dts/skeleton.dtsi arch/arm/boot/dts/vf610-pinfunc.h \
+ /home/fedevel/tiny/linux/linux-fslc/arch/arm/boot/dts/include/dt-bindings/clock/vf610-clock.h

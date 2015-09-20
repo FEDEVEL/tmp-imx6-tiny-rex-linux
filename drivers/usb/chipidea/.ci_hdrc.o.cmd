@@ -1,0 +1,1 @@
+cmd_drivers/usb/chipidea/ci_hdrc.o := /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/usb/chipidea/ci_hdrc.o drivers/usb/chipidea/core.o drivers/usb/chipidea/otg.o drivers/usb/chipidea/udc.o drivers/usb/chipidea/host.o 

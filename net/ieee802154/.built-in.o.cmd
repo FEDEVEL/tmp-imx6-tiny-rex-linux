@@ -1,0 +1,1 @@
+cmd_net/ieee802154/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o net/ieee802154/built-in.o net/ieee802154/6lowpan_iphc.o 

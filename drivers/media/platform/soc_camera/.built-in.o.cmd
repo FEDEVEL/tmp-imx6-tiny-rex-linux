@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/soc_camera/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/media/platform/soc_camera/built-in.o drivers/media/platform/soc_camera/soc_camera.o drivers/media/platform/soc_camera/soc_mediabus.o drivers/media/platform/soc_camera/mx3_camera.o 

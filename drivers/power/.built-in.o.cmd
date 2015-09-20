@@ -1,0 +1,1 @@
+cmd_drivers/power/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/power/built-in.o drivers/power/power_supply.o drivers/power/sabresd_battery.o 

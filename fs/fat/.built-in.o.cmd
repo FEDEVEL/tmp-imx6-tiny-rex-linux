@@ -1,0 +1,1 @@
+cmd_fs/fat/built-in.o :=  /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL    -r -o fs/fat/built-in.o fs/fat/fat.o fs/fat/vfat.o 
